@@ -1,16 +1,20 @@
-const int VYVOD = 10;
-const int PAUSA1 = 1000;
-const int PAUSA2 = 1000;
+const int ledPin = 9;       // вывод светодиода
+const int pause1 = 10;      // длина высокого полупериода
+const int pause2 = 10;      // длина низкого полупериода
 
+// Функция настройки при включении (однократно)
 void setup()
 {
-  pinMode(VYVOD, OUTPUT);
+  // Настроить вывод ledPin на выход сигнала (OUTPUT)
+  pinMode(ledPin , OUTPUT);
 }
 
+//--------------------------------------------------------------------------------------------
+// Главная функция - кусок текста повторяется бесконечно
 void loop()
 {
-  digitalWrite(VYVOD, HIGH);
-  delay(PAUSA1);
-  digitalWrite(VYVOD, LOW);
-  delay(PAUSA2);
+  digitalWrite(ledPin, HIGH);   // Включить светодиод (подать высокий уровень (HIGH) на вывод ledPin)
+  delay(pause1);                // Подождать pause1 милисекунд
+  digitalWrite(ledPin, LOW);    // Выключить светодиод (подать низкий уровень (LOW) на вывод ledPin)
+  delay(pause2);                // Подождать pause2 милисекунд
 }
