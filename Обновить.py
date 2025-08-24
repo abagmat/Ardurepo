@@ -4,7 +4,6 @@ import sys
 code = '''
 import subprocess
 subprocess.call(["git", "pull"]);
-subprocess.call(["git", "lfs", "pull"]);
 
 subprocess.call(["pip", "install", "urllib3==1.26.6"]);
 subprocess.call(["pip", "install", "pywin32==308"]);
