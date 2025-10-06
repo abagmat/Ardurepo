@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR?
+U 1 1 68E3BB30
+P 4750 2850
+F 0 "#PWR?" H 4750 2700 50  0001 C CNN
+F 1 "VCC" H 4765 3023 50  0000 C CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 68E3C886
+P 4750 3500
+F 0 "#PWR?" H 4750 3250 50  0001 C CNN
+F 1 "Earth" H 4750 3350 50  0001 C CNN
+F 2 "" H 4750 3500 50  0001 C CNN
+F 3 "~" H 4750 3500 50  0001 C CNN
+	1    4750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 68E3DA9C
+P 5450 2700
+F 0 "R?" H 5520 2746 50  0000 L CNN
+F 1 "R" H 5520 2655 50  0000 L CNN
+F 2 "" V 5380 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 68E3DE95
+P 6000 2700
+F 0 "C?" H 6115 2746 50  0000 L CNN
+F 1 "C" H 6115 2655 50  0000 L CNN
+F 2 "" H 6038 2550 50  0001 C CNN
+F 3 "~" H 6000 2700 50  0001 C CNN
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 68E3E4CC
+P 6350 2700
+F 0 "C?" H 6468 2746 50  0000 L CNN
+F 1 "CP" H 6468 2655 50  0000 L CNN
+F 2 "" H 6388 2550 50  0001 C CNN
+F 3 "~" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 68E3EC87
+P 5100 2700
+F 0 "D?" V 5047 2780 50  0000 L CNN
+F 1 "LED" V 5138 2780 50  0000 L CNN
+F 2 "" H 5100 2700 50  0001 C CNN
+F 3 "~" H 5100 2700 50  0001 C CNN
+	1    5100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 68E3FD8A
+P 4350 3200
+F 0 "J?" H 4407 3525 50  0000 C CNN
+F 1 "Barrel_Jack" H 4407 3434 50  0000 C CNN
+F 2 "" H 4400 3160 50  0001 C CNN
+F 3 "~" H 4400 3160 50  0001 C CNN
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 68E40C52
+P 5700 2700
+F 0 "D?" V 5654 2780 50  0000 L CNN
+F 1 "D" V 5745 2780 50  0000 L CNN
+F 2 "" H 5700 2700 50  0001 C CNN
+F 3 "~" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 68E414AC
+P 5100 3150
+F 0 "RV?" H 5031 3196 50  0000 R CNN
+F 1 "R_POT" H 5031 3105 50  0000 R CNN
+F 2 "" H 5100 3150 50  0001 C CNN
+F 3 "~" H 5100 3150 50  0001 C CNN
+	1    5100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q?
+U 1 1 68E48E96
+P 5550 3250
+F 0 "Q?" H 5740 3296 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 5740 3205 50  0000 L CNN
+F 2 "" H 5750 3350 50  0001 C CNN
+F 3 "~" H 5550 3250 50  0001 C CNN
+	1    5550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q?
+U 1 1 68E4B32C
+P 6250 3200
+F 0 "Q?" H 6441 3246 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 6441 3155 50  0000 L CNN
+F 2 "" H 6450 3300 50  0001 C CNN
+F 3 "~" H 6250 3200 50  0001 C CNN
+	1    6250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_SCR_AGK D?
+U 1 1 68E4BCEC
+P 6850 2650
+F 0 "D?" H 6938 2696 50  0000 L CNN
+F 1 "Q_SCR_AGK" H 6938 2605 50  0000 L CNN
+F 2 "" V 6850 2650 50  0001 C CNN
+F 3 "~" V 6850 2650 50  0001 C CNN
+	1    6850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:TDA2003 U?
+U 1 1 68E4C579
+P 5400 3800
+F 0 "U?" H 5744 3846 50  0000 L CNN
+F 1 "TDA2003" H 5744 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 5400 3800 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/cd00000123.pdf" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Triac_Thyristor:BTA16-600B Q?
+U 1 1 68E4CFE5
+P 7100 3150
+F 0 "Q?" H 7229 3196 50  0000 L CNN
+F 1 "BTA16-600B" H 7229 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7300 3075 50  0001 L CIN
+F 3 "https://www.st.com/resource/en/datasheet/bta16.pdf" H 7100 3150 50  0001 L CNN
+	1    7100 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
